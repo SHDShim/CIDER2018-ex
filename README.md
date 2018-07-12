@@ -4,15 +4,19 @@ by Dan Shim (Arizona State University)
 
 ## Purpose of the tutorial
 
-In the mineral physics tutorial at CIDER 2018, we will demonstrate typical data analysis for equation of state (EOS).  We then discuss ways to estimate and propagate uncertainties for better use of EOS data.
+In the mineral physics tutorial at CIDER 2018, we will focus on:
 
-Here I explain the necessary computer setups for the tutorial.
+- Gaining insights on the EOS parameters
+
+- Resolving some discrepancies in the mineral physics dataset through pressure scale corrections
+
+Here I explain the necessary setups for the tutorial.
 
 ## General guide
 
 The tutorial materials will be provided in a VirtualMachine file.  The installation instruction here is for installing the tutorial materials in the VirtualMachine file.  Therefore, if you obtain the VirtualMachine file, you do not need to install the materials separately following this instruction.
 
-However, you may use this instruction to run the tutorial materials directly in your host OS system rather than through Virtual Machine.  Advantages for this approach include: the code will be executed much faster and you can continue enjoying python + jupyter setup for your data analysis in the future.
+However, you may use this instruction to run the tutorial materials directly in your host OS system rather than through VirtualMachine.  Advantages for this approach include: the code will be executed much faster and you can continue enjoying python + jupyter setup for your data analysis in the future.
 
 Note that the instruction here is NOT tested for Windows OS.  There should be some slight but important differences.  Please contact [Dan Shim](shdshim@gmail.com) for questions.
 
@@ -28,7 +32,7 @@ Note that `Graphical installer` is easier if you have Mac OSX (and windows I bel
 
 Once you finish the `Anaconda` installation, you may update the `Anaconda` meta package.
 
-1. Run `terminal.app` or `console`.
+1. Run `terminal.app`.
 
 2. Run anaconda `base` or `root` environment (Note that you do not need to type the commands below.  You may just copy and paste in the terminal and then press the return key.  This applies to all other commands below).
    ```bash
